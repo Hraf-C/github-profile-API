@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bfe7c21e59.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Github Profile Info</h1>
+            <p>Enter a single Github username below and click the button to display profile info via JSON.</p>
+            <form id="form">
+                <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+                <button id="search-button">Pull User Data</button>
+            </form>
+            
+        </div>
+        <div id="lds-dual-ring" style="display: none;"></div>
+        <div id="profile" style="display: none;"></div>
+        <div id="repos" style="display: none;"></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
